@@ -1,6 +1,6 @@
 import json
 import sys
-
+import os
 class Datalogger:
     def __init__(self):
         # log the playing sequence
@@ -9,6 +9,11 @@ class Datalogger:
             configurations = json.load(fd)
 
             exp_name = configurations["exp_name"]
+
+            new_directory = f"../data/{exp_name}"
+            
+            if not os.path.exists(new_directory):
+                os.makedirs(new_directory)
 
             self.play_fd = open(f"../data/{exp_name}/{exp_name}-play.csv", "w")
 
