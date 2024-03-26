@@ -140,7 +140,7 @@ class Datalogger:
 
 
     def log_download_seq(self, flow):
-        # print(flow.response.headers)
+        print(flow.response.headers)
         content_type = flow.response.headers[b'Content-Type']
 
         self.download_fd.write(str(content_type))
@@ -171,7 +171,8 @@ class Datalogger:
         self.download_fd.write(", ")
 
 
-        self.download_fd.write(str(flow.request.headers[b'Host']))
+        # self.download_fd.write(str(flow.request.headers[b'Host']))
+        self.download_fd.write("dump")
         self.download_fd.write(", ")
 
         

@@ -177,7 +177,7 @@ class playtraceparser:
                 self.download_addr_list.append(row[self.IDX_DOWNLOAD_ADDR])
                 self.gear_name_list.append(row[self.IDX_GEAR_NAME].split("&"))
 
-                self.quality_list.append([int(quality) for quality in row[self.IDX_QUALITY].split("&")])
+                self.quality_list.append([int(float(quality)) for quality in row[self.IDX_QUALITY].split("&")])
 
                 if len(row) > self.IDX_RES_END:
                     self.req_start_list.append(float(row[self.IDX_REQ_START]))

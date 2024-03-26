@@ -13,7 +13,7 @@ def kill_child(cpid):
 
 
 
-proc = subprocess.Popen(["../tool/mitmdump", "-p", "9989", "--allow-hosts", "www.baidu.com"],
+proc = subprocess.Popen(["../tool/mitmdump", "-p", "8080", "--allow-hosts", "www.baidu.com"],
     # stdout=subprocess.PIPE, stderr=subprocess.PIPE
     )
 

@@ -150,7 +150,10 @@ class Datalogger:
         self.download_fd.write(", ")
 
 
-        self.download_fd.write(str(flow.request.headers[b'Host']))
+        try:
+            self.download_fd.write(str(flow.request.headers[b'Host']))
+        except:
+            self.download_fd.write(str(flow.request.headers))
         self.download_fd.write(", ")
 
         

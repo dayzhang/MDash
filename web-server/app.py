@@ -60,6 +60,7 @@ def svs():
 
     pparser = traceparser.playtraceparser()
     filepath = data_folder_path + traceid + "/" + traceid + "-play.csv"
+    print("File Path: " + filepath)
     pparser.parse(filepath)
     uri_list = pparser.get_uri_list()
 
