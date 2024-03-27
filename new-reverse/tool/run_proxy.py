@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import os
 import subprocess
 import time
@@ -13,8 +14,7 @@ def kill_child(cpid):
 
 
 
-
-proc = subprocess.Popen(["../tool/mitmdump", "-s", "../tool/pre_parse.py", "~u tiktok.com"],
+proc = subprocess.Popen(["mitmdump", "-s", "../tool/pre_parse.py", "~u tiktok.com"],
     # stdout=subprocess.PIPE, stderr=subprocess.PIPE
     )
 

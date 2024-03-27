@@ -40,6 +40,7 @@ for loop in range(number_of_plays):
                 keyboard.press(key)
             else:
                 keyboard.release(key)
+            print(pause_time)
             time.sleep(pause_time)
 
 

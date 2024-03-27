@@ -139,18 +139,17 @@ class Datalogger:
 
 
 
-    def log_download_seq(self, flow):
-        print(flow.response.headers)
-        content_type = flow.response.headers[b'Content-Type']
+    def log_download_seq(self, flow, content_type):
+        print("download entered")
 
         self.download_fd.write(str(content_type))
         self.download_fd.write(", ")
 
-        if (b'Accept-Ranges' in flow.response.headers):
-            self.download_fd.write(str(flow.response.headers[b'Accept-Ranges']))
+        if ('Accept-Ranges' in flow.response.headers):
+            self.download_fd.write(str(flow.response.headers['Accept-Ranges']))
 
-        if (b'Content-Range' in flow.response.headers):
-            self.download_fd.write(str(flow.response.headers[b'Content-Range']))
+        if ('Content-Range' in flow.response.headers):
+            self.download_fd.write(str(flow.response.headers['Content-Range']))
         self.download_fd.write(", ")
 
         # print(b'Content-Range' in flow.response.headers)
@@ -188,26 +187,33 @@ class Datalogger:
         self.download_fd.flush()
 
     def response(self, flow):
-
-        # if b'Content-Type' not in flow.response.headers.keys():
-        #     return
-
+        
+        print('response happened')
+        # print(list(flow.response.headers.keys()))
+        # print(flow)
+        content_type = ""
+        if 'Content-Type' not in flow.response.headers.keys():
+            if 'content-type' not in flow.response.headers.keys():
+                return
+            content_type = flow.response.headers['content-type']
+        content_type =  flow.response.headers['Content-Type']
+        print('wtf')
         # print(flow.response.headers)
 
         # prevent policy notice from popping up
         if (flow.request.path.find("/policy/notice/") != -1):
             flow.response.content = b""
 
-        content_type = flow.response.headers[b'Content-Type']
+         
 
 
-        # print(content_type)
+        print(content_type)
 
         if str(content_type) == "application/json; charset=utf-8":
             self.log_play_seq(flow)
 
         if str(content_type) == "video/mp4":
-            self.log_download_seq(flow)
+            self.log_download_seq(flow, content_type)
 
 
 
