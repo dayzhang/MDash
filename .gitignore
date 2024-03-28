@@ -10,3 +10,4 @@
 *.png
 *.log
 *.csv
+!new-reverse/data/*/*.csv

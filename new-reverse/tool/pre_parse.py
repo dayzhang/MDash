@@ -29,6 +29,11 @@ class Datalogger:
 
     def parse_json(self, data, flow):
         # 
+        print(type(data))
+        if (type(data) != type({})):
+            
+            print("not dict")
+            return
         if 'itemList' not in data.keys():
             return
         print(data.keys())
@@ -123,8 +128,7 @@ class Datalogger:
 
             self.seqnum += 1
         print('finished')
-        if self.seqnum > self.total:
-            exit()
+        
     def log_play_seq(self, flow):
         print(f'log entered {len(str(flow.response.content))}')
         # print(flow.response.content.decode('utf-8'))
