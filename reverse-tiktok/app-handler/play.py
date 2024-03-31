@@ -13,7 +13,7 @@ if n > 3:
     exit("Only takes two argument - name of recording to play and number of times to play it")
 
 if n == 3:
-    name_of_recording = "../app-handler/data/" + str(sys.argv[1]) +'.txt'
+    name_of_recording = "../app-handler/data/" + str(sys.argv[1]) + '.txt'
     number_of_plays = int(sys.argv[2])
 
 with open(name_of_recording) as json_file:

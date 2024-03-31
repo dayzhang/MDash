@@ -11,7 +11,7 @@ if n != 3:
 
 num_secs = int(float(sys.argv[1]))
 num_runs = int(float(sys.argv[2]))
-name_of_recording = f"{num_secs}secs"
+name_of_recording = f"{num_secs}sec"
 
 print(num_runs)
 storage = []

@@ -22,8 +22,8 @@ class Datalogger:
             self.seqnum = 0
 
             self.total = configurations['iterations']
-            self.play_fd.write("seqnum, uri, duration, bitrate_string, uri_hash_string, download_addr, gear_name_string, ")
-            self.play_fd.write("quality_type_string, request_time_start, request_time_start, request_time_stop, request_time_stop\n")
+            self.play_fd.write("seqnum,url_chunk,duration,bitrate_string,url_chunk_string,download_addr,gear_name_string,")
+            self.play_fd.write("quality_type_string,request_time_start,request_time_start,response_time_start,response_time_stop\n")
 
             self.play_fd.flush()
 
@@ -76,12 +76,12 @@ class Datalogger:
 
                 url0 = bitrate_info[j]['PlayAddr']['UrlList'][0]
                 
-
-                uri_hash.append(bitrate_info[j]['PlayAddr']['Uri'])
+                entries = url0.split('/')
+                uri_hash.append(entries[7])
                 
                 if int(bit_rates[-1]) == used_bitrate:
                     download_addr = url0
-                    uri = bitrate_info[j]['PlayAddr']['Uri']
+                    uri = uri_hash[-1]
             
             # if len(bit_rates) > 0:
             #     download_addr = bitrate_info[0]['play_addr']['url_list'][0]
@@ -113,13 +113,13 @@ class Datalogger:
 
 
             self.play_fd.write(str(flow.request.timestamp_start))
-            self.play_fd.write(", ")
+            self.play_fd.write(",")
 
             self.play_fd.write(str(flow.request.timestamp_end))
-            self.play_fd.write(", ")
+            self.play_fd.write(",")
 
             self.play_fd.write(str(flow.response.timestamp_start))
-            self.play_fd.write(", ")
+            self.play_fd.write(",")
 
             self.play_fd.write(str(flow.response.timestamp_end))
             self.play_fd.write("\n")
@@ -147,43 +147,43 @@ class Datalogger:
         print("download entered")
 
         self.download_fd.write(str(content_type))
-        self.download_fd.write(", ")
+        self.download_fd.write(",")
 
         if ('Accept-Ranges' in flow.response.headers):
             self.download_fd.write(str(flow.response.headers['Accept-Ranges']))
 
         if ('Content-Range' in flow.response.headers):
             self.download_fd.write(str(flow.response.headers['Content-Range']))
-        self.download_fd.write(", ")
+        self.download_fd.write(",")
 
         # print(b'Content-Range' in flow.response.headers)
 
         self.download_fd.write(str(flow.request.timestamp_start))
-        self.download_fd.write(", ")
+        self.download_fd.write(",")
         
 
         self.download_fd.write(str(flow.request.timestamp_end))
-        self.download_fd.write(", ")
+        self.download_fd.write(",")
 
 
         self.download_fd.write(str(flow.response.timestamp_start))
-        self.download_fd.write(", ")
+        self.download_fd.write(",")
 
 
         self.download_fd.write(str(flow.response.timestamp_end))
-        self.download_fd.write(", ")
+        self.download_fd.write(",")
 
 
         # self.download_fd.write(str(flow.request.headers[b'Host']))
         self.download_fd.write("dump")
-        self.download_fd.write(", ")
+        self.download_fd.write(",")
 
         
         rpath = flow.request.path
         rtiems = rpath.split("/")
 
         self.download_fd.write(str(rtiems[1]))
-        self.download_fd.write(", ")
+        self.download_fd.write(",")
 
         self.download_fd.write(str(rpath))
         self.download_fd.write("\n")
