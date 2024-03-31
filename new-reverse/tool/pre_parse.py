@@ -23,7 +23,7 @@ class Datalogger:
 
             self.total = configurations['iterations']
             self.play_fd.write("seqnum,url_chunk,duration,bitrate_string,url_chunk_string,download_addr,gear_name_string,")
-            self.play_fd.write("quality_type_string,request_time_start,request_time_start,response_time_start,response_time_stop\n")
+            self.play_fd.write("quality_type_string,request_time_start,request_time_stop,response_time_start,response_time_stop\n")
 
             self.play_fd.flush()
 

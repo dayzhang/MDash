@@ -11,3 +11,4 @@
 *.log
 *.csv
 !new-reverse/data/*/*.csv
+!new-reverse/data/*/*.png
