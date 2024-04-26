@@ -25,9 +25,17 @@ def experiment_plot(experiment_name, cleaned_name):
 
   download_file = f"../data/{experiment_name}/{experiment_name}-download.csv"
   play_file = f"../data/{experiment_name}/{experiment_name}-play.csv"
-  trace_file = f"../app-handler/data/{experiment_name}.txt"
-  if experiment_name[-4:] == "2016" or experiment_name[-4:] == "6045":
-    trace_file = f"../app-handler/data/{experiment_name[:-4]}.txt"
+  trace_name = experiment_name
+  if len(trace_name) > 6 and trace_name[:6] == "school":
+    trace_name = trace_name[6:]
+
+  if trace_name[-4:] == "2016" or trace_name[-4:] == "6045" or trace_name[-4:] == "8060":
+    trace_name = trace_name[:-4]
+  elif trace_name[-3:] == "108":
+    trace_name = trace_name[:-3]
+  elif trace_name[-2:] == "32" or trace_name[-2:] == "54":
+    trace_name = trace_name[:-2]
+  trace_file = f"../app-handler/data/{trace_name}.txt"
   # note, uri field does not refer to uri, refers to portion of url
   # used to identify video by url
   url_chunks = {}
