@@ -19,7 +19,7 @@ import sys
 
 n = len(sys.argv)
 if n != 3:
-  print("takes 2 arguments, the experiment_name and cleaned_name")
+  exit("takes 2 arguments, the experiment_name and cleaned_name")
 
 def experiment_plot(experiment_name, cleaned_name):
 
