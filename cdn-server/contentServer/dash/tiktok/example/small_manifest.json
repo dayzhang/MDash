@@ -1,0 +1,18 @@
+{
+    "manifest_version": 1,
+    "videos": [
+    {
+    "url": "https://v16-webapp-prime.tiktok.com/video/tos/alisg/tos-alisg-pve-0037c001/okvtf1hxjAW8MEzCgOhfjMfKgxH4iaeei6pAAY/?a=1988&bti=NDU3ZjAwOg%3D%3D&ch=0&cr=3&dr=0&lr=unwatermarked&cd=0%7C0%7C0%7C&cv=1&br=964&bt=482&cs=0&ds=6&ft=4fUEKMzm8Zmo0loG_-4jVDi.PpWrKsd.&mime_type=video_mp4&qs=0&rc=NmQ3N2c4Zzg0Mzs5Nzg7ZkBpajN5dHY5cnF5cjMzODczNEAxX2NgYDRfX14xNi8uY18vYSNmY2RxMmQ0cWxgLS1kMTFzcw%3D%3D&btag=e000a0000&expire=1714805730&l=2024050206490162C70BC17D6C7A0EB9EB&ply_type=2&policy=2&signature=3898d76212b10da5bb6793674f82da39&tk=tt_chain_token",
+    "quality": "540p",
+    "codec": "h264",
+    "bitrate": "494074",
+    "size": "23849575"
+    },
+    {
+    "url": "https://v16-webapp-prime.tiktok.com/video/tos/alisg/tos-alisg-pve-0037c001/o8RGg2iEIAwz3WGPqDiqyJA3lzeHCCA7BAPIQ8/?a=1988&bti=NDU3ZjAwOg%3D%3D&ch=0&cr=3&dr=0&lr=unwatermarked&cd=0%7C0%7C0%7C&cv=1&br=724&bt=362&cs=2&ds=4&ft=4fUEKMzm8Zmo0loG_-4jVDi.PpWrKsd.&mime_type=video_mp4&qs=15&rc=aDY3NmY7NTg6OjxmZWk5ZUBpajN5dHY5cnF5cjMzODczNEA0YTYwY2AzNWMxNi01LzIyYSNmY2RxMmQ0cWxgLS1kMTFzcw%3D%3D&btag=e000a0000&expire=1714805730&l=2024050206490162C70BC17D6C7A0EB9EB&ply_type=2&policy=2&signature=e1a4cb7299b50d524a24d8e280fab086&tk=tt_chain_token",
+    "quality": "1080p",
+    "codec": "h265_hvc1",
+    "bitrate": "371340",
+    "size": "17925083"
+    }]
+}

@@ -1,0 +1,547 @@
+{                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           "extra": {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  "fatal_item_ids": [],                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   "logid": "202405020639450B63AAC701422D3BC44F",                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          "now": 1714631986000                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                },                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      "itemList": [                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               {
+            "BAInfo": "",                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           "adAuthorization": false,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               "adLabelVersion": 0,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    "aigcLabelType": 0,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     "author": {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 "avatarLarger": "https://p16-pu-sign-useast8.tiktokcdn-us.com/tos-useast5-avt-0068-tx/2c157ce23634a44ef23907c61ea73ee5~c5_1080x1080.jpeg?lk3s=a5d48078&x-expires=1714802400&x-signature=sf6XXoqu4zM0lWnzY2K38WfL8tg%3D",                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                "avatarMedium": "https://p19-pu-sign-useast8.tiktokcdn-us.com/tos-useast5-avt-0068-tx/2c157ce23634a44ef23907c61ea73ee5~c5_720x720.jpeg?lk3s=a5d48078&x-expires=1714802400&x-signature=kiuDnGblJRHUQlLf69uy3o9a5CU%3D",                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  "avatarThumb": "https://p16-pu-sign-useast8.tiktokcdn-us.com/tos-useast5-avt-0068-tx/2c157ce23634a44ef23907c61ea73ee5~c5_100x100.jpeg?lk3s=a5d48078&x-expires=1714802400&x-signature=0H4I2V72tF2NmTx7BEh%2FNpq6%2F3k%3D",                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               "commentSetting": 0,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    "downloadSetting": 0,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   "duetSetting": 0,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       "ftc": false,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           "id": "7334889503158764586",
+                "isADVirtual": false,
+                "isEmbedBanned": false,
+                "nickname": "toughknucklesLLC",
+                "openFavorite": false,
+                "privateAccount": false,
+                "relation": 0,
+                "secUid": "MS4wLjABAAAAv8Y3BGA-C8YiQo_SK7yeJgD4U1_9c_qkaZY0kDr6pjT5jrWOkg8i4_yytorFKAsK",
+                "secret": false,
+                "signature": "casual tomfoolery",
+                "stitchSetting": 0,
+                "ttSeller": false,
+                "uniqueId": "toughknucklesllc",
+                "verified": false
+            },
+            "authorStats": {
+                "diggCount": 109,
+                "followerCount": 8873,
+                "followingCount": 43,
+                "friendCount": 0,
+                "heart": 2200000,
+                "heartCount": 2200000,
+                "videoCount": 6
+            },
+            "challenges": [
+                {
+                    "coverLarger": "",
+                    "coverMedium": "",
+                    "coverThumb": "",
+                    "desc": "",
+                    "id": "1679382325504006",
+                    "isCommerce": false,
+                    "profileLarger": "",
+                    "profileMedium": "",
+                    "profileThumb": "",
+                    "stats": {
+                        "videoCount": 0,
+                        "viewCount": 0
+                    },
+                    "title": "pledgetok"
+                },
+                {
+                    "coverLarger": "",
+                    "coverMedium": "",
+                    "coverThumb": "",
+                    "desc": "Whether you're heading to class or living it up at the dorms, here's to all things #College.",
+                    "id": "4278",
+                    "isCommerce": false,
+                    "profileLarger": "https://p16-amd-va.tiktokcdn.com/obj/musically-maliva-obj/a04a1c6f5270cc261e75237750d250c8.png",
+                    "profileMedium": "https://p16-amd-va.tiktokcdn.com/obj/musically-maliva-obj/a04a1c6f5270cc261e75237750d250c8.png",
+                    "profileThumb": "https://p16-amd-va.tiktokcdn.com/obj/musically-maliva-obj/a04a1c6f5270cc261e75237750d250c8.png",
+                    "stats": {
+                        "videoCount": 0,
+                        "viewCount": 0
+                    },
+                    "title": "college"
+                },
+                {
+                    "coverLarger": "",
+                    "coverMedium": "",
+                    "coverThumb": "",
+                    "desc": "",
+                    "id": "176549",
+                    "isCommerce": false,
+                    "profileLarger": "",
+                    "profileMedium": "",
+                    "profileThumb": "",
+                    "stats": {
+                        "videoCount": 0,
+                        "viewCount": 0
+                    },
+                    "title": "dapper"
+                },
+                {
+                    "coverLarger": "",
+                    "coverMedium": "",
+                    "coverThumb": "",
+                    "desc": "",
+                    "id": "1680073675975681",
+                    "isCommerce": false,
+                    "profileLarger": "",
+                    "profileMedium": "",
+                    "profileThumb": "",
+                    "stats": {
+                        "videoCount": 0,
+                        "viewCount": 0
+                    },
+                    "title": "mewingtutorial"
+                },
+                {
+                    "coverLarger": "",
+                    "coverMedium": "",
+                    "coverThumb": "",
+                    "desc": "",
+                    "id": "74353",
+                    "isCommerce": false,
+                    "profileLarger": "",
+                    "profileMedium": "",
+                    "profileThumb": "",
+                    "stats": {
+                        "videoCount": 0,
+                        "viewCount": 0
+                    },
+                    "title": "wompwomp"
+                },
+                {
+                    "coverLarger": "",
+                    "coverMedium": "",
+                    "coverThumb": "",
+                    "desc": "",
+                    "id": "89630920",
+                    "isCommerce": false,
+                    "profileLarger": "",
+                    "profileMedium": "",
+                    "profileThumb": "",
+                    "stats": {
+                        "videoCount": 0,
+                        "viewCount": 0
+                    },
+                    "title": "fortniteclips"
+                },
+                {
+                    "coverLarger": "",
+                    "coverMedium": "",
+                    "coverThumb": "",
+                    "desc": "",
+                    "id": "25921",
+                    "isCommerce": false,
+                    "profileLarger": "",
+                    "profileMedium": "",
+                    "profileThumb": "",
+                    "stats": {
+                        "videoCount": 0,
+                        "viewCount": 0
+                    },
+                    "title": "sandwich"
+                },
+                {
+                    "coverLarger": "",
+                    "coverMedium": "",
+                    "coverThumb": "",
+                    "desc": "",
+                    "id": "40602",
+                    "isCommerce": false,
+                    "profileLarger": "",
+                    "profileMedium": "",
+                    "profileThumb": "",
+                    "stats": {
+                        "videoCount": 0,
+                        "viewCount": 0
+                    },
+                    "title": "bosnia"
+                },
+                {
+                    "coverLarger": "",
+                    "coverMedium": "",
+                    "coverThumb": "",
+                    "desc": "",
+                    "id": "429600",
+                    "isCommerce": false,
+                    "profileLarger": "",
+                    "profileMedium": "",
+                    "profileThumb": "",
+                    "stats": {
+                        "videoCount": 0,
+                        "viewCount": 0
+                    },
+                    "title": "sillygoose"
+                }
+            ],
+            "collected": false,
+            "contents": [
+                {
+                    "desc": "#pledgetok #college #dapper #mewingtutorial #wompwomp #fortniteclips #sandwich #bosnia #sillygoose ",
+                    "textExtra": [
+                        {
+                            "awemeId": "",
+                            "end": 10,
+                            "hashtagId": "1679382325504006",
+                            "hashtagName": "pledgetok",
+                            "isCommerce": false,
+                            "secUid": "",
+                            "start": 0,
+                            "subType": 0,
+                            "type": 1,
+                            "userId": "",
+                            "userUniqueId": ""
+                        },
+                        {
+                            "awemeId": "",
+                            "end": 19,
+                            "hashtagId": "4278",
+                            "hashtagName": "college",
+                            "isCommerce": false,
+                            "secUid": "",
+                            "start": 11,
+                            "subType": 0,
+                            "type": 1,
+                            "userId": "",
+                            "userUniqueId": ""
+                        },
+                        {
+                            "awemeId": "",
+                            "end": 27,
+                            "hashtagId": "176549",
+                            "hashtagName": "dapper",
+                            "isCommerce": false,
+                            "secUid": "",
+                            "start": 20,
+                            "subType": 0,
+                            "type": 1,
+                            "userId": "",
+                            "userUniqueId": ""
+                        },
+                        {
+                            "awemeId": "",
+                            "end": 43,
+                            "hashtagId": "1680073675975681",
+                            "hashtagName": "mewingtutorial",
+                            "isCommerce": false,
+                            "secUid": "",
+                            "start": 28,
+                            "subType": 0,
+                            "type": 1,
+                            "userId": "",
+                            "userUniqueId": ""
+                        },
+                        {
+                            "awemeId": "",
+                            "end": 53,
+                            "hashtagId": "74353",
+                            "hashtagName": "wompwomp",
+                            "isCommerce": false,
+                            "secUid": "",
+                            "start": 44,
+                            "subType": 0,
+                            "type": 1,
+                            "userId": "",
+                            "userUniqueId": ""
+                        },
+                        {
+                            "awemeId": "",
+                            "end": 68,
+                            "hashtagId": "89630920",
+                            "hashtagName": "fortniteclips",
+                            "isCommerce": false,
+                            "secUid": "",
+                            "start": 54,
+                            "subType": 0,
+                            "type": 1,
+                            "userId": "",
+                            "userUniqueId": ""
+                        },
+                        {
+                            "awemeId": "",
+                            "end": 78,
+                            "hashtagId": "25921",
+                            "hashtagName": "sandwich",
+                            "isCommerce": false,
+                            "secUid": "",
+                            "start": 69,
+                            "subType": 0,
+                            "type": 1,
+                            "userId": "",
+                            "userUniqueId": ""
+                        },
+                        {
+                            "awemeId": "",
+                            "end": 86,
+                            "hashtagId": "40602",
+                            "hashtagName": "bosnia",
+                            "isCommerce": false,
+                            "secUid": "",
+                            "start": 79,
+                            "subType": 0,
+                            "type": 1,
+                            "userId": "",
+                            "userUniqueId": ""
+                        },
+                        {
+                            "awemeId": "",
+                            "end": 98,
+                            "hashtagId": "429600",
+                            "hashtagName": "sillygoose",
+                            "isCommerce": false,
+                            "secUid": "",
+                            "start": 87,
+                            "subType": 0,
+                            "type": 1,
+                            "userId": "",
+                            "userUniqueId": ""
+                        }
+                    ]
+                }
+            ],
+            "createTime": 1711513379,
+            "desc": "#pledgetok #college #dapper #mewingtutorial #wompwomp #fortniteclips #sandwich #bosnia #sillygoose ",
+            "digged": false,
+            "diversificationId": 10003,
+            "duetDisplay": 0,
+            "duetEnabled": true,
+            "duetInfo": {
+                "duetFromId": "0"
+            },
+            "forFriend": false,
+            "id": "7350893835720936747",
+            "isAd": false,
+            "itemCommentStatus": 0,
+            "itemMute": false,
+            "music": {
+                "album": "",
+                "authorName": "toughknucklesLLC",
+                "coverLarge": "https://p16-pu-sign-useast8.tiktokcdn-us.com/tos-useast5-avt-0068-tx/2c157ce23634a44ef23907c61ea73ee5~c5_1080x1080.jpeg?lk3s=a5d48078&x-expires=1714802400&x-signature=sf6XXoqu4zM0lWnzY2K38WfL8tg%3D",
+                "coverMedium": "https://p19-pu-sign-useast8.tiktokcdn-us.com/tos-useast5-avt-0068-tx/2c157ce23634a44ef23907c61ea73ee5~c5_720x720.jpeg?lk3s=a5d48078&x-expires=1714802400&x-signature=kiuDnGblJRHUQlLf69uy3o9a5CU%3D",
+                "coverThumb": "https://p16-pu-sign-useast8.tiktokcdn-us.com/tos-useast5-avt-0068-tx/2c157ce23634a44ef23907c61ea73ee5~c5_100x100.jpeg?lk3s=a5d48078&x-expires=1714802400&x-signature=0H4I2V72tF2NmTx7BEh%2FNpq6%2F3k%3D",
+                "duration": 8,
+                "id": "7350894001723034411",
+                "original": true,
+                "playUrl": "",
+                "title": "original sound"
+            },
+            "officalItem": false,
+            "originalItem": false,
+            "playlistId": "",
+            "poi": {
+                "address": "North America",
+                "category": "Place and Address",
+                "city": "",
+                "cityCode": "4273359",
+                "country": "",
+                "countryCode": "6252001",
+                "fatherPoiId": "",
+                "fatherPoiName": "",
+                "id": "22535865200907089",
+                "name": "United States",
+                "province": "",
+                "ttTypeCode": "19a3a1",
+                "ttTypeNameMedium": "Places",
+                "ttTypeNameSuper": "Place and Address",
+                "ttTypeNameTiny": "Country",
+                "type": 0,
+                "typeCode": ""
+            },
+            "privateItem": false,
+            "secret": false,
+            "shareEnabled": true,
+            "showNotPass": false,
+            "stats": {
+                "collectCount": 243400,
+                "commentCount": 6024,
+                "diggCount": 2200000,
+                "playCount": 12200000,
+                "shareCount": 435700
+            },
+            "statsV2": {
+                "collectCount": "243362",
+                "commentCount": "6024",
+                "diggCount": "2226339",
+                "playCount": "12225874",
+                "repostCount": "0",
+                "shareCount": "435673"
+            },
+            "stickersOnItem": [
+                {
+                    "stickerText": [
+                        "never eating with bro again 💀💀💀"
+                    ],
+                    "stickerType": 4
+                }
+            ],
+            "stitchDisplay": 0,
+            "stitchEnabled": true,
+            "textExtra": [
+                {
+                    "awemeId": "",
+                    "end": 10,
+                    "hashtagId": "1679382325504006",
+                    "hashtagName": "pledgetok",
+                    "isCommerce": false,
+                    "secUid": "",
+                    "start": 0,
+                    "subType": 0,
+                    "type": 1,
+                    "userId": "",
+                    "userUniqueId": ""
+                },
+                {
+                    "awemeId": "",
+                    "end": 19,
+                    "hashtagId": "4278",
+                    "hashtagName": "college",
+                    "isCommerce": false,
+                    "secUid": "",
+                    "start": 11,
+                    "subType": 0,
+                    "type": 1,
+                    "userId": "",
+                    "userUniqueId": ""
+                },
+                {
+                    "awemeId": "",
+                    "end": 27,
+                    "hashtagId": "176549",
+                    "hashtagName": "dapper",
+                    "isCommerce": false,
+                    "secUid": "",
+                    "start": 20,
+                    "subType": 0,
+                    "type": 1,
+                    "userId": "",
+                    "userUniqueId": ""
+                },
+                {
+                    "awemeId": "",
+                    "end": 43,
+                    "hashtagId": "1680073675975681",
+                    "hashtagName": "mewingtutorial",
+                    "isCommerce": false,
+                    "secUid": "",
+                    "start": 28,
+                    "subType": 0,
+                    "type": 1,
+                    "userId": "",
+                    "userUniqueId": ""
+                },
+                {
+                    "awemeId": "",
+                    "end": 53,
+                    "hashtagId": "74353",
+                    "hashtagName": "wompwomp",
+                    "isCommerce": false,
+                    "secUid": "",
+                    "start": 44,
+                    "subType": 0,
+                    "type": 1,
+                    "userId": "",
+                    "userUniqueId": ""
+                },
+                {
+
+
+
+
+         {
+                    "awemeId": "",
+                    "end": 10,
+                    "hashtagId": "1679382325504006",
+                    "hashtagName": "pledgetok",
+                    "isCommerce": false,
+                    "secUid": "",
+                    "start": 0,
+                    "subType": 0,
+                    "type": 1,
+                    "userId": "",
+                    "userUniqueId": ""
+                },
+                {
+                    "awemeId": "",
+                    "end": 19,
+                    "hashtagId": "4278",
+                    "hashtagName": "college",
+                    "isCommerce": false,
+                    "secUid": "",
+                    "start": 11,
+                    "subType": 0,
+                    "type": 1,
+                    "userId": "",
+                    "userUniqueId": ""
+                },
+                {
+                    "awemeId": "",
+                    "end": 27,
+                    "hashtagId": "176549",
+                    "hashtagName": "dapper",
+                    "isCommerce": false,
+                    "secUid": "",
+                    "start": 20,
+                    "subType": 0,
+                    "type": 1,
+                    "userId": "",
+                    "userUniqueId": ""
+                },
+                {
+                    "awemeId": "",
+                    "end": 43,
+                    "hashtagId": "1680073675975681",
+                    "hashtagName": "mewingtutorial",
+                    "isCommerce": false,
+                    "secUid": "",
+                    "start": 28,
+                    "subType": 0,
+                    "type": 1,
+                    "userId": "",
+                    "userUniqueId": ""
+                },
+                {
+                    "awemeId": "",
+                    "end": 53,
+                    "hashtagId": "74353",
+                    "hashtagName": "wompwomp",
+                    "isCommerce": false,
+                    "secUid": "",
+                    "start": 44,
+                    "subType": 0,
+                    "type": 1,
+                    "userId": "",
+                    "userUniqueId": ""
+                },
+                {
+                    "awemeId": "",
+                    "end": 68,
+                    "hashtagId": "89630920",
+                    "hashtagName": "fortniteclips",
+                    "isCommerce": false,
+                    "secUid": "",
+                    "start": 54,
+                    "subType": 0,
+                    "type": 1,
+                    "userId": "",
+                    "userUniqueId": ""
+                },
+                {
+                    "awemeId": "",
+                    "end": 78,
+                    "hashtagId": "25921",
+                    "hashtagName": "sandwich",
+                    "isCommerce": false,
+                    "secUid": "",
+                    "start": 69,
+                    "subType": 0,
+                    "type": 1,
+                    "userId": "",
+                    "userUniqueId": ""
+                },
+                {
+                    "awemeId": "",
+                    "end": 86,
+                    "hashtagId": "40602",
+                    "hashtagName": "bosnia",
+                    "isCommerce": false,
+                    "secUid": "",
+                    "start": 79,
+                    "subType": 0,
+Stopped displaying data after 512 lines. Press f to load all data.
+⇩  [6/20]  [f:~u tiktok.com]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    [*:8080]Flow:    e Edit        D Duplicate   r Replay      x Export      d Delete      b Save body   ␣ Next flow   p Prev flow
+Proxy:   ? Help        q Back        E Events      O Options     i Intercept   f Filter      w Save flows  z Clear list  - Layout      ctrl → Switch F Follow new
