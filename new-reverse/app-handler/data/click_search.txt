@@ -1,0 +1,1 @@
+[{"action": "pressed", "button": "Button.right", "x": 279.453125, "y": 65.734375, "_time": 1714605172.861502}, {"action": "released", "button": "Button.right", "x": 279.91796875, "y": 65.734375, "_time": 1714605177.483525}]
