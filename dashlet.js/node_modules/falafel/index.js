@@ -1,7 +1,6 @@
-var parse = require('acorn').parse;
+var acorn = require('acorn');
 var isArray = require('isarray');
-var objectKeys = require('object-keys');
-var forEach = require('foreach');
+var util = require('util');
 
 module.exports = function (src, opts, fn) {
     if (typeof opts === 'function') {
@@ -18,34 +17,39 @@ module.exports = function (src, opts, fn) {
     }
     src = src === undefined ? opts.source : src;
     if (typeof src !== 'string') src = String(src);
-    if (opts.parser) parse = opts.parser.parse;
-    var ast = parse(src, opts);
+    var parser = opts.parser || acorn;
+    var ast = parser.parse(src, opts);
     
     var result = {
         chunks : src.split(''),
         toString : function () { return result.chunks.join('') },
         inspect : function () { return result.toString() }
     };
+    if (util.inspect.custom) {
+        result[util.inspect.custom] = result.toString;
+    }
     var index = 0;
     
     (function walk (node, parent) {
         insertHelpers(node, parent, result.chunks);
         
-        forEach(objectKeys(node), function (key) {
-            if (key === 'parent') return;
+        for (var key in node) {
+            if (key === 'parent' || !Object.prototype.hasOwnProperty.call(node, key)) {
+                continue;
+            }
             
             var child = node[key];
             if (isArray(child)) {
-                forEach(child, function (c) {
-                    if (c && typeof c.type === 'string') {
-                        walk(c, node);
+                for (var i = 0; i < child.length; i += 1) {
+                    if (child[i] && typeof child[i].type === 'string') {
+                        walk(child[i], node);
                     }
-                });
+                }
             }
             else if (child && typeof child.type === 'string') {
                 walk(child, node);
             }
-        });
+        }
         fn(node);
     })(ast, undefined);
     
@@ -61,9 +65,11 @@ function insertHelpers (node, parent, chunks) {
     
     if (node.update && typeof node.update === 'object') {
         var prev = node.update;
-        forEach(objectKeys(prev), function (key) {
-            update[key] = prev[key];
-        });
+        for (var key in prev) {
+            if (Object.prototype.hasOwnProperty.call(prev, key)) {
+                update[key] = prev[key];
+            }
+        }
         node.update = update;
     }
     else {

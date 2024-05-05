@@ -203,6 +203,7 @@ def make_request_handler(input_dict, logger, throughput_estimator):
 
         def do_GET(self):
             print('GOT REQ')
+            print('du ma')
             self.send_response(200)
             #self.send_header('Cache-Control', 'Cache-Control: no-cache, no-store, must-revalidate max-age=0')
             self.send_header('Cache-Control', 'max-age=3000')
